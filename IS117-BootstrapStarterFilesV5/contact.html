@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+
+
+</head>
+<body>
+<nav class="nav-bar container-fluid d-flex flex-row justify-content-center gap-3 align-items-center border border-dark mb-5" >
+    <!--    <nav class="container-fluid d-flex justify-content-center" >-->
+
+    <a href="./index.html">
+    <img class = "rounded-circle" src="myImages/MyLogo1.jpg"
+         alt="This is the logo" width="75" height=75">
+    </a>
+
+    <!-- Links START -->
+    <ul class="home-goal-contact-section d-flex justify-content-center list-unstyled fs-2"> <!-- Added 'nav' class to the ul for better horizontal alignment -->
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+               data-bs-toggle="dropdown" aria-expanded="false">
+                Goal
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="goal.html">Goal</a>
+                <a class="dropdown-item" href="bulk.html">Bulk</a>
+                <a class="dropdown-item" href="cut.html">Cut</a>
+                <a class="dropdown-item" href="maintain.html">Maintain</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </ul>
+
+    <div class = "float-sm-start">
+        <form class="d-flex ">
+            <input
+                    class = "form-control form-control-md"
+                    type = "text"
+                    placeholder= "Search"
+            >
+            <button class = "search-btn">Enter</button>
+        </form>
+    </div>
+
+    <!-- Links END -->
+    <!--        this contains HOME GOAL CONTACT start-->
+</nav>
+
+
+<div class="row mb-5">
+    <div class="col d-flex flex-column justify-content-center align-items-center ">
+        <form class="d-flex flex-column gap-3" action="">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" id="email"
+                       placeholder="Email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="phonenumber">Phone Number:</label>
+                <input type="text" class="form-control" id="phonenumber"
+                       placeholder="Phone number" name="phonenumber">
+            </div>
+            <div class=" mb-3">
+                <input type="text" class="form-control form-control-lg" placeholder="Message">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="col d-flex flex-column justify-content-center gap-3 align-items-center">
+        <h2>Social Media</h2>
+        <img src="myImages/instagram.png"
+             alt="Instagram Image" height="150" width="150">
+        <img src="myImages/facebook.png"
+             alt="Facebook Image" height="150" width="150">
+        <img src="myImages/youtube.png"
+             alt="YouTube Image" height="150" width="150">
+    </div>
+
+</div>
+
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+<footer class="d-flex flex-row justify-content-evenly align-items-center border-top border-dark footer">
+    <span class="text-muted mt-5">&copy; Andres Tovio Pabon, 2024</span>
+    <span class="text-muted mt-5">Terms Of Use</span>
+    <span class="text-muted mt-5">Privacy Statement</span>
+</footer>
+</html>

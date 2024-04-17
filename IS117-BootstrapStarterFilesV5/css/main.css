@@ -1,0 +1,88 @@
+.home-goal-contact-section {
+    margin-left: 20%;
+    margin-right: 20%;
+    /*color: var(--bs-dark);*/
+}
+
+.nav-bar {
+    height: 100px;
+}
+
+.nav-bar a{
+    color: var(--bs-dark);
+}
+
+.container {
+    margin-top: 75px;
+    width: 700px;
+    height: 350px;
+    padding: 0px;
+}
+
+.jumbotron {
+    height: 100%;
+    width: 100%;
+}
+
+.card-section {
+    height: 200px;
+    gap: 10%;
+}
+
+.sign-up {
+    height: 100%;
+    width: 250px;
+}
+
+.inner-sign-up{
+    width: 100%;
+    height: 33.3%;
+}
+
+.inner-sign-up-btn {
+    width: 100%;
+    height: 33.3%;
+}
+
+.inner-sign-up span {
+    font-size: 20px;
+}
+
+.inner-sign-up input {
+    height: 40px;
+    width: 150px;
+}
+
+.inner-sign-up-btn button {
+    height: 35px;
+}
+
+.card {
+    width: 250px;
+}
+
+.button {
+    border-radius: 0;
+}
+
+.button-right {
+    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-left: 20px; /* Adjust the left margin as needed */
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+
+
+

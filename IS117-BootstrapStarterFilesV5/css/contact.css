@@ -1,0 +1,33 @@
+.form-control-lg {
+    height: 400px;
+    width: 400px;
+}
+
+.home-goal-contact-section {
+    margin-left: 20%;
+    margin-right: 20%;
+    /*color: var(--bs-dark);*/
+}
+
+.nav-bar {
+    height: 100px;
+}
+
+.nav-bar a{
+    color: var(--bs-dark);
+
+}
+
+form {
+    width: 300px
+}
+
+p {
+    height: 700px;
+    width: 700px;
+}
+
+.btn-custom {
+    height: 200px;
+    width: 200px;
+}
